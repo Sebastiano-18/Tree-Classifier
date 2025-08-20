@@ -1,0 +1,12 @@
+# virtual enviroment
+.venv/
+# Python cache files 
+__pycache__/
+*.py[cod]
+# data and trained models
+data/
+models/
+# OS-specific files
+Thumbs.db
+# logs
+*.log
