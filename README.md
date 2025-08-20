@@ -3,13 +3,14 @@ A Machine Learning Project that classifies tree types (Maple, Oak, Pine) based o
 
 ----
 
-## Features 
--Preprocessing with Robust Scaler 
--Random Forest model with hyperparameter tuning via 'RandomizedSearchCV'
--Stratified K-fold cross-validation
--Confusion Matrix and classification report visualization
--Save and load models locally (not tracked in Git)
-
+## TABLE OF CONTENTS
+- [Project Structure](#project-structure)
+- [Features](#Features)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Requirements](#requirements)
+- [License](#License)
+ ----
 ## Project Structure
 TreeType_Classfier/
 ├──.venv # PYTHON VIRTUAL ENVIROMENT
@@ -24,4 +25,22 @@ TreeType_Classfier/
 ├──requirements.txt# Python Dependencies
 ├──LICENSE# LICENSE FILE
 
-> **NOTE** 'data/' and 'models/' folders are ignored in Git, so they need to be create locally before running the project 
+> **NOTE** 'data/' and 'models/' folders are ignored in Git, so they need to be created locally before running the project
+----
+
+## Features
+-Train and Evaluate a Random Forest Classifier for tree type prediction
+-Hyperparameter tuning using 'RandomizedSearchCV'.
+-Confusion Matrix and classification report for performance visualization
+-Save trained model for reuse 
+
+
+## INSTALLATION
+1. Clone the Repository
+```bash
+git clone https://github.com/Sebastiano-18/Tree-Classifier.git
+cd Tree-Classifier
+2 CREATE VIRTUAL ENVIROMENT
+# for Windows OSes
+python -m venv .venv
+.venv\Scripts\activate
