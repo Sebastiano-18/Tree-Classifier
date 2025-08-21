@@ -58,14 +58,20 @@ def evaluate_model(model, X, y, skf):
     """
     y_pred = cross_val_predict(model, X, y, cv=skf)
     print("CLASSIFICATION REPORT:\n", classification_report(y, y_pred))
-    
+
+    return y_pred
+
+def plot_confusion_matrix(y, y_pred, save_path="results/confusion_matrix.png"):
     cm = confusion_matrix(y, y_pred)
     disp = ConfusionMatrixDisplay(cm)
-    disp.plot()
-    plt.title("CONFUSION MATRIX OF THE CLASSIFIER")
-    plt.show()
-    
-    return y_pred
+    disp.plot(cmap='Blues')
+    plt.title("Confusion Matrix of the Classifier")
+    plt.savefig(save_path, bbox_inches='tight')
+    plt.close()
+    print(f"Confusion matrix saved to {save_path}")
+    return cm
+
+
 
 def save_model(model, folder="models",filename="random_forest_model.pkl"):
     """
@@ -88,7 +94,8 @@ def main():
     print("THE BEST SCORE IS:\n", round(rd.best_score_, 2))
 
     best_model = rd.best_estimator_
-    evaluate_model(best_model, X, y , skf)
+    y_pred = evaluate_model(best_model, X, y , skf)
+    plot_confusion_matrix(y, y_pred)
 
     save_model(best_model)
 
