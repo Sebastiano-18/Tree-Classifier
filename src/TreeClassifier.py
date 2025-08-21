@@ -62,8 +62,9 @@ def evaluate_model(model, X, y, skf):
     return y_pred
 
 def plot_confusion_matrix(y, y_pred, save_path="results/confusion_matrix.png"):
+    labels = ['Maple', 'Oak', 'Pine']
     cm = confusion_matrix(y, y_pred)
-    disp = ConfusionMatrixDisplay(cm)
+    disp = ConfusionMatrixDisplay(cm, display_labels=labels)
     disp.plot(cmap='Blues')
     plt.title("Confusion Matrix of the Classifier")
     plt.savefig(save_path, bbox_inches='tight')
