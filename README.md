@@ -51,6 +51,10 @@ source .venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+4. Required Folders
+```
+mkdir data models
+```
 ## USAGE
 ```
 python src/TreeClassifier.py
