@@ -1,5 +1,5 @@
 # 🌳 TreeType Classifier
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)  
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)  
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)](https://scikit-learn.org/stable/)  
 [![Status](https://img.shields.io/badge/Status-Completed-brightgreen)]()
 
