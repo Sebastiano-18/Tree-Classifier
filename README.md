@@ -50,5 +50,4 @@ pip install -r requirements.txt
 python src/TreeClassifier.py
 ```
 ## RESULTS
-The Random Forest Classifier achieved around 92% of accuracy.
-See `results.md` for detailed classification report and confusion matrix 
+A confusion matrix and a classification report are available in 
