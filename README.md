@@ -37,16 +37,22 @@ TreeType_Classfier/
 ```bash
 git clone https://github.com/Sebastiano-18/Tree-Classifier.git
 cd Tree-Classifier
-2 CREATE VIRTUAL ENVIROMENT
+```
+2. CREATE VIRTUAL ENVIROMENT
+```
 # for Windows OSes
 python -m venv .venv
 .venv\Scripts\activate
 # for macOS/Linux
 python -m venv .venv
 source .venv/bin/activate
-3 Install Dependencies
+```
+3. Install Dependencies
+```
 pip install -r requirements.txt
-# USAGE
+```
+## USAGE
+```
 python src/TreeClassifier.py
 ```
 ## RESULTS
