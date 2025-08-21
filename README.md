@@ -51,3 +51,6 @@ python src/TreeClassifier.py
 ```
 ## RESULTS
 The detailed evaluation results can be found in the [Results File](results/results.md)
+
+## LICENSE
+This project is licensed under the [MIT LICENSE](LICENSE)
