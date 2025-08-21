@@ -48,3 +48,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 # USAGE
 python src/TreeClassifier.py
+```
+## RESULTS
+The Random Forest Classifier achieved around 92% of accuracy.
+See `results.md` for detailed classification report and confusion matrix 
