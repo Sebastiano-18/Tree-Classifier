@@ -32,13 +32,6 @@ TreeType_Classfier/
 > **NOTE** 'data/' and 'models/' folders are ignored in Git, so they need to be created locally before running the project
 ----
 
-## Features
--Train and Evaluate a Random Forest Classifier for tree type prediction
--Hyperparameter tuning using 'RandomizedSearchCV'.
--Confusion Matrix and classification report for performance visualization
--Save trained model for reuse 
-
-
 ## INSTALLATION
 1. Clone the Repository
 ```bash
@@ -53,3 +46,5 @@ python -m venv .venv
 source .venv/bin/activate
 3 Install Dependencies
 pip install -r requirements.txt
+# USAGE
+python src/TreeClassifier.py
