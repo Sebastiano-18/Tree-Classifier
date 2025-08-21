@@ -50,4 +50,4 @@ pip install -r requirements.txt
 python src/TreeClassifier.py
 ```
 ## RESULTS
-A confusion matrix and a classification report are available in 
+The detailed evaluation results can be found in the [Results File](results/results.md)
