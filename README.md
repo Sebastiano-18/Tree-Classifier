@@ -38,7 +38,7 @@ TreeType_Classfier/
 git clone https://github.com/Sebastiano-18/Tree-Classifier.git
 cd Tree-Classifier
 ```
-2. CREATE VIRTUAL ENVIROMENT
+2. Create Virtual Enviroment
 ```
 # for Windows OSes
 python -m venv .venv
