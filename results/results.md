@@ -22,3 +22,13 @@ CLASSIFICATION REPORT:
 ## CONFUSION MATRIX 
 the confusion matrix provides a visual summary of how well the classifier predicts each tree type 
 
+![Confusion Matrix](confusion_matrix.png)
+
+
+
+## SUMMARY 
+- The classifier used a random forest model with hyperparameter tuning via `RandomizedSearchCV`
+- Cross-Validation ensures that evaluation metrics are reliable and generalizable
+- Overall Accuracy and per-class metrics are reported above
+- The Confusion Matrix highlights areas where the model performs strongly and  where it may need improvement
+
