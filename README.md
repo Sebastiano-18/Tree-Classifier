@@ -1,15 +1,19 @@
-## TreeType Classifier
-A Machine Learning Project that classifies tree types (Maple, Oak, Pine) based on physical characteristics like heigth, trunk diameter, leaf area, bark roughness using a random forest classifier
+# 🌳 TreeType Classifier
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)  
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)](https://scikit-learn.org/stable/)  
+[![Status](https://img.shields.io/badge/Status-Completed-brightgreen)]()
 
-----
+## 📌 Project Overview
+This repository contains an **end-to-end Machine Learning project** that predicts the type of tree (Maple, Oak, Pine) based on physical characteristics.  
 
-## TABLE OF CONTENTS
-- [Project Structure](#project-structure)
-- [Features](#Features)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Requirements](#requirements)
-- [License](#License)
+The workflow includes:
+- Data loading & preprocessing with `pandas` and `RobustScaler`.
+- Training a **Random Forest Classifier** inside a `Pipeline`.
+- **Hyperparameter tuning** using `RandomizedSearchCV` with stratified K-Fold CV.
+- **Evaluation** with accuracy, precision, recall, F1-score, and confusion matrix.
+- **Model saving** for reproducibility.
+- Full documentation and environment setup.
+
  ----
 ## Project Structure
 TreeType_Classfier/
@@ -44,3 +48,8 @@ cd Tree-Classifier
 # for Windows OSes
 python -m venv .venv
 .venv\Scripts\activate
+# for macOS/Linux
+python -m venv .venv
+source .venv/bin/activate
+3 Install Dependencies
+pip install -r requirements.txt
