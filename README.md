@@ -70,5 +70,7 @@ The detailed evaluation results can be found in the [Results File](results/resul
 ## LICENSE
 This project is licensed under the [MIT LICENSE](LICENSE)
 
-## AUTHOR
-Sebastiano Undergradute Student in Information and Automation Engenr
+---
+
+## Author
+👨‍💻 Sebastiano – Undergraduate student in Information and Automation Engineering, specializing in **AI and Databases**.  
