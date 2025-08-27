@@ -72,5 +72,5 @@ This project is licensed under the [MIT LICENSE](LICENSE)
 
 ---
 
-## Author
+## AUTHOR
 👨‍💻 Sebastiano – Undergraduate student in Information and Automation Engineering, specializing in **AI and Databases**.  
